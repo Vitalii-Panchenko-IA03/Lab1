@@ -9,7 +9,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 'latest'
   },
-  plugins: ['sonar'],
+  plugins: ['sonarjs'],
   rules: {
   }
 }
