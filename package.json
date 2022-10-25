@@ -4,7 +4,6 @@
   "description": "Lab 1",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint --ext .js . --ignore-path .gitignore",
     "lint:fix": "npm run lint --fix . --ignore-path .gitignore",
     "prettier": "prettier --check . --ignore-path .gitignore",
