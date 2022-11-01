@@ -3,7 +3,13 @@ module.exports = {
         node: true,
         es2021: true,
     },
-    extends: ['standard', 'plugin:sonarjs/recommended', 'prettier'],
+    extends: [
+        'standard',
+        'eslint:recommended',
+        'plugin:sonarjs/recommended',
+        'plugin:import/recommended',
+        'prettier',
+    ],
     overrides: [],
     parserOptions: {
         ecmaVersion: 'latest',
