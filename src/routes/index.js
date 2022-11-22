@@ -1,13 +1,13 @@
-function GET(req, res) {
-  res.json({ text: 'some get' });
+function GET(req, res, url, payload) {
+  res.json({ text: 'GET' });
 }
 
 function OPTIONS(req, res) {
-  res.json({ text: 'some options' });
+  res.json({ text: 'OPTIONS' });
 }
 
-function POST(req, res) {
-  res.json({ text: 'some post' });
+function POST(req, res, url, payload) {
+  res.json({ contentType: req.headers['content-type'], payload });
 }
 
 export { GET, OPTIONS, POST };
