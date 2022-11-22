@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Lab 1",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "lint": "eslint --ext .js . --ignore-path .gitignore",
     "lint:fix": "npm run lint --fix . --ignore-path .gitignore",
@@ -11,15 +12,14 @@
     "prepare": "husky install"
   },
   "repository": {
-    "type": "module",
-    "url": "git+https://github.com/Vitalii-Panchenko-IA03/Lab1.git"
+    "url": "git+https://github.com/Vitalii-Panchenko-IA03/Node-Labs "
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Vitalii-Panchenko-IA03/Lab1/issues"
+    "url": "https://github.com/Vitalii-Panchenko-IA03/Node-Labs/issues"
   },
-  "homepage": "https://github.com/Vitalii-Panchenko-IA03/Lab1#readme",
+  "homepage": "https://github.com/Vitalii-Panchenko-IA03/Node-Labs#readme",
   "devDependencies": {
     "eslint": "^8.26.0",
     "eslint-config-prettier": "^8.5.0",
